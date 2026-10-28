@@ -77,7 +77,7 @@ export default function Navbar({ theme, toggleTheme }) {
             </button>
 
             {/* Quick Contact CTA */}
-            <a href="#contact" className="btn btn-primary btn-sm" style={{ display: 'none', md: 'inline-flex' }}>
+            <a href="#contact" className="btn btn-primary btn-sm nav-cta-btn">
               <span>Let's Talk</span>
               <ArrowUpRight size={16} />
             </a>
