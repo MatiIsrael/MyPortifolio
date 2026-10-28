@@ -57,7 +57,8 @@ export const portfolioData = {
     database: [
       { name: "PostgreSQL", icon: "Database" },
       { name: "Supabase", icon: "Cloud" },
-      { name: "Relational Modeling", icon: "Cpu" }
+      { name: "MySQL", icon: "Database" },
+      { name: "SQLite", icon: "Database" }
     ],
     tools: [
       { name: "Git & GitHub", icon: "GitBranch" },

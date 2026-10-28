@@ -36,7 +36,7 @@ export default function Hero() {
 
             {/* Subtitle / Philosophy */}
             <p className="hero-subtitle">
-              {personal.tagline} Focused on crafting high-performance, accessible web platforms using <strong>React</strong>, <strong>Python (Django / FastAPI)</strong>, and <strong>PostgreSQL</strong>.
+              {personal.tagline} Focused on crafting high-performance, accessible web platforms using <strong>React</strong>, <strong>Python (Django / FastAPI)</strong>, and modern databases like <strong>PostgreSQL</strong>, <strong>MySQL</strong>, and <strong>Supabase</strong>.
             </p>
 
             {/* CTAs */}
