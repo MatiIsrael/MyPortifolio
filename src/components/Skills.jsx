@@ -88,12 +88,11 @@ export default function Skills() {
                 {cat.items.map((skill, sIdx) => (
                   <div key={sIdx} className="skill-row">
                     <div className="skill-name-wrap">
-                      <span style={{ color: 'var(--accent-primary)', display: 'flex' }}>
+                      <span className="skill-icon-wrap">
                         {iconMap[skill.icon] || <Code size={18} />}
                       </span>
-                      <span>{skill.name}</span>
+                      <span className="skill-name">{skill.name}</span>
                     </div>
-                    <span className="skill-level-badge">{skill.level}</span>
                   </div>
                 ))}
               </div>

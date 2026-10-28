@@ -42,28 +42,28 @@ export const portfolioData = {
 
   skills: {
     frontend: [
-      { name: "React", level: "Intermediate", icon: "Code" },
-      { name: "JavaScript (ES6+)", level: "Intermediate", icon: "FileCode" },
-      { name: "HTML5 & CSS3", level: "Advanced", icon: "Layout" },
-      { name: "Bootstrap", level: "Advanced", icon: "Grid" },
-      { name: "Responsive UI/UX", level: "Advanced", icon: "Smartphone" }
+      { name: "React", icon: "Code" },
+      { name: "JavaScript (ES6+)", icon: "FileCode" },
+      { name: "HTML5 & CSS3", icon: "Layout" },
+      { name: "Bootstrap", icon: "Grid" },
+      { name: "Responsive UI/UX", icon: "Smartphone" }
     ],
     backend: [
-      { name: "Python", level: "Intermediate", icon: "Terminal" },
-      { name: "Django", level: "Intermediate", icon: "Server" },
-      { name: "FastAPI", level: "Intermediate", icon: "Zap" },
-      { name: "RESTful APIs", level: "Advanced", icon: "Layers" }
+      { name: "Python", icon: "Terminal" },
+      { name: "Django", icon: "Server" },
+      { name: "FastAPI", icon: "Zap" },
+      { name: "RESTful APIs", icon: "Layers" }
     ],
     database: [
-      { name: "PostgreSQL", level: "Intermediate", icon: "Database" },
-      { name: "Supabase", level: "Advanced", icon: "Cloud" },
-      { name: "Relational Modeling", level: "Intermediate", icon: "Cpu" }
+      { name: "PostgreSQL", icon: "Database" },
+      { name: "Supabase", icon: "Cloud" },
+      { name: "Relational Modeling", icon: "Cpu" }
     ],
     tools: [
-      { name: "Git & GitHub", level: "Advanced", icon: "GitBranch" },
-      { name: "VS Code", level: "Advanced", icon: "Monitor" },
-      { name: "Vercel", level: "Advanced", icon: "UploadCloud" },
-      { name: "Postman & API Testing", level: "Intermediate", icon: "CheckSquare" }
+      { name: "Git & GitHub", icon: "GitBranch" },
+      { name: "VS Code", icon: "Monitor" },
+      { name: "Vercel", icon: "UploadCloud" },
+      { name: "Postman & API Testing", icon: "CheckSquare" }
     ]
   },
 
