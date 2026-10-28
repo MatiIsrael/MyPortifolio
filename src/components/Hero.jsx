@@ -1,7 +1,6 @@
 import React from 'react';
 import { 
   ArrowRight, 
-  Download, 
   Github, 
   Linkedin, 
   Send, 
@@ -13,11 +12,6 @@ import { portfolioData } from '../data/portfolioData';
 
 export default function Hero() {
   const { personal } = portfolioData;
-
-  const handleDownloadCV = (e) => {
-    // If cv.pdf does not yet exist or is empty, provide friendly feedback and trigger print/view
-    // We also set the download attribute on the link.
-  };
 
   return (
     <section className="hero-section" id="hero">
@@ -52,18 +46,8 @@ export default function Hero() {
                 <ArrowRight size={18} />
               </a>
 
-              <a
-                href={personal.cvUrl}
-                download="Mati_Israel_CV.pdf"
-                onClick={handleDownloadCV}
-                className="btn btn-secondary btn-lg"
-              >
-                <Download size={18} />
-                <span>Download CV</span>
-              </a>
-
-              <a href="#contact" className="btn btn-outline btn-lg">
-                <span>Contact Me</span>
+              <a href="#contact" className="btn btn-secondary btn-lg">
+                <span>Get In Touch</span>
               </a>
             </div>
 
