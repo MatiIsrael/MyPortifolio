@@ -5,8 +5,7 @@ import {
   Linkedin, 
   Send, 
   MessageCircle, 
-  CheckCircle2,
-  MapPin
+  CheckCircle2
 } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
 
@@ -21,12 +20,6 @@ export default function Hero() {
         <div className="hero-grid">
           {/* Hero Content */}
           <div className="hero-content">
-            {/* Live Status Badge */}
-            <div className="hero-badge">
-              <span className="status-dot"></span>
-              <span>{personal.badge}</span>
-            </div>
-
             {/* Headline */}
             <h1 className="hero-title">
               Hi, I'm <span className="gradient-text">{personal.fullName}</span>
@@ -109,10 +102,6 @@ export default function Hero() {
                 width="360"
                 height="450"
               />
-              <div className="hero-floating-pill">
-                <MapPin size={16} color="var(--accent-primary)" />
-                <span>{personal.location}</span>
-              </div>
             </div>
           </div>
         </div>
