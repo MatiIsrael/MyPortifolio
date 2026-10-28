@@ -5,7 +5,7 @@ A fast, accessible, and authentic developer portfolio website built with modern 
 ---
 
 ## 🚀 Live Demo & Repository
-- **GitHub Repository:** [https://github.com/MatiIsrael](https://github.com/MatiIsrael)
+- **GitHub Repository:** [https://github.com/MatiIsrael/MyPortifolio](https://github.com/MatiIsrael/MyPortifolio)
 - **Live Preview:** Ready for instant 1-click deployment on [Vercel](https://vercel.com/)
 
 ---
